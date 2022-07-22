@@ -32,7 +32,7 @@ class IPTV extends ColorTV{
 public class TV_main {
 
 	public static void main(String[] args) {
-		IPTV iptv = new IPTV("localhost" , 32 , 2048);
+		IPTV iptv = new IPTV("127.0.0.1" , 32 , 2048);
 		iptv.printProperty();
 
 	}
