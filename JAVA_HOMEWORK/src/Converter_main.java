@@ -1,6 +1,6 @@
 import java.util.Scanner;
 abstract class Converter {
-//변경사항
+
 	abstract protected double convert(double src); // 추상 메소드
 	abstract protected String getSrcString(); // 추상 메소드
 	abstract protected String getDestString(); // 추상 메소드
